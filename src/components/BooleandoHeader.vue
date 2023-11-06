@@ -18,7 +18,7 @@ export default {
                     <a href="">Bambini</a>
                 </div>
                 <div>
-                    <img src="./img/boolean-logo.png" alt="" class="logo">
+                    <img src="../assets/boolean-logo.png" alt="" class="logo">
                 </div>
                 <div>
                     <a href="">baidge</a>

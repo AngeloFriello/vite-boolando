@@ -12,8 +12,8 @@ export default {
     <div class="container container-main">
             <div class="col-4">
                 <div>
-                    <img src="./img/1.webp" alt="" class="img-top">
-                    <img src="./img/1b.webp" alt="" class="img-back">
+                    <img src="../assets/1.webp" alt="" class="img-top">
+                    <img src="../assets/1b.webp" alt="" class="img-back">
                     <div class="discount">-50%</div>
                     <div class="free">Sostenibilità</div>
                     <div class="heart">&hearts;</div>
@@ -27,8 +27,8 @@ export default {
             </div>
             <div class="col-4">
                 <div>
-                    <img src="./img/2.webp" alt="" class="img-top">
-                    <img src="./img/2b.webp" alt="" class="img-back">
+                    <img src="../assets/2.webp" alt="" class="img-top">
+                    <img src="../assets/2b.webp" alt="" class="img-back">
                     <div class="discount">-50%</div>
                     <div class="heart">&hearts;</div>
                 </div>
@@ -41,8 +41,8 @@ export default {
             </div>
             <div class="col-4">
                 <div>
-                    <img src="./img/3.webp" alt="" class="img-top">
-                    <img src="./img/3b.webp" alt="" class="img-back">
+                    <img src="../assets/3.webp" alt="" class="img-top">
+                    <img src="../assets/3b.webp" alt="" class="img-back">
                     <div class="discount">-50%</div>
                     <div class="heart">&hearts;</div>
                 </div>
@@ -56,8 +56,8 @@ export default {
 
             <div class="col-4">
                 <div>
-                    <img src="./img/4.webp" alt="" class="img-top">
-                    <img src="./img/4b.webp" alt="" class="img-back">
+                    <img src="../assets/4.webp" alt="" class="img-top">
+                    <img src="../assets/4b.webp" alt="" class="img-back">
                     <div class="discount">-50%</div>
                     <div class="heart">&hearts;</div>
                     <div class="free">Sostenibilità</div>
@@ -71,8 +71,8 @@ export default {
             </div>
             <div class="col-4">
                 <div>
-                    <img src="./img/5.webp" alt="" class="img-top">
-                    <img src="./img/5b.webp" alt="" class="img-back">
+                    <img src="../assets/5.webp" alt="" class="img-top">
+                    <img src="../assets/5b.webp" alt="" class="img-back">
                     <div class="heart">&hearts;</div>
                 </div>
                 <div>
@@ -84,8 +84,8 @@ export default {
             </div>
             <div class="col-4">
                 <div>
-                    <img src="./img/6.webp" alt="" class="img-top">
-                    <img src="./img/6b.webp" alt="" class="img-back">
+                    <img src="../assets/6.webp" alt="" class="img-top">
+                    <img src="../assets/6b.webp" alt="" class="img-back">
                     <div class="heart">&hearts;</div>
                 </div>
                 <div>
