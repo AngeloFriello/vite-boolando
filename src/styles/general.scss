@@ -15,7 +15,9 @@ a{
     font-weight: 400;
 }
 
-
+li,ul{
+    list-style: none
+}
 
 /* HEADER */
 
@@ -68,7 +70,10 @@ header .col-12{
     align-items: center;
 }
 
-
+.icon{
+    display: flex;
+    gap: 10px;
+}
 
 /* MAIN */
 
