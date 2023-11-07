@@ -2,16 +2,18 @@
     import BooleandoHeader from './components/BooleandoHeader.vue';
     import BooleandoMain from './components/BooleandoMain.vue';
     import BooleandoFooter from './components/BooleandoFooter.vue';
+    import Prodocts from '../db.json'
 
     export default {
         components:{
+            Prodocts,
             BooleandoHeader,
             BooleandoMain,
             BooleandoFooter,
         },
         data() {
             return{
-            
+                
             }
         }
     }
