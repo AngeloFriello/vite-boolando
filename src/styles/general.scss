@@ -19,9 +19,25 @@ li,ul{
     list-style: none
 }
 
+.col-6{
+    flex-basis: calc(100% / 2);
+}
+
+.col-12{
+    flex-basis: calc(100%);
+
+}
+
 /* HEADER */
 
-
+header{
+    
+    .col-12{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 .nav-header{
     display: flex;
@@ -53,21 +69,6 @@ li,ul{
     margin-bottom: 50px;
 
     
-}
-
-.col-6{
-    flex-basis: calc(100% / 2);
-}
-
-.col-12{
-    flex-basis: calc(100%);
-
-}
-
-header .col-12{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .icon{
@@ -169,9 +170,9 @@ footer{
     background-color: gray;
     padding: 30px;
     margin-top: 100px;
-}
 
-footer .col-12{
-    display: flex;
-    justify-content: space-between;
+    .col-12{
+        display: flex;
+        justify-content: space-between;
+    }
 }

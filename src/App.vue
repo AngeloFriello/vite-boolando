@@ -33,7 +33,8 @@
 </template>
 
 <style lang="scss">
-    @use './styles/general.scss'
+    @use './styles/general.scss';
+    @use './styles/partsials/variables.scss';
 </style>
 
 
