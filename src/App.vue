@@ -1,12 +1,10 @@
 <script>
     import BooleandoHeader from './components/BooleandoHeader.vue';
     import BooleandoMain from './components/BooleandoMain.vue';
-    import BooleandoFooter from './components/BooleandoFooter.vue';
-    import Prodocts from '../db.json'
+    import BooleandoFooter from './components/BooleandoFooter.vue'; 
 
     export default {
         components:{
-            Prodocts,
             BooleandoHeader,
             BooleandoMain,
             BooleandoFooter,
