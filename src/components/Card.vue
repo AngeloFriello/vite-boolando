@@ -5,6 +5,7 @@
                 props:{
                     product:{
                         type: Object,
+                        required: true,
                     }
                 }
             }
@@ -22,7 +23,7 @@
         </div>
         <div>
             <p class="brand">Levi's</p>
-            <p class="outfit-name"></p>
+            <p class="outfit-name">{{ product.name }}</p>
             <p class="outfit-price">14,99</p>
             <p class="outfit-price_discount">29,99</p>
         </div>

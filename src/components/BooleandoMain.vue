@@ -1,6 +1,6 @@
 <script>
     import Card from './Card.vue'
-    import Item from '../db.json'
+    import Item from '../db.json'   
 export default {
     components:{
         Card,
@@ -17,7 +17,7 @@ export default {
     <div class="container container-main">
 
         <div class="col-4" v-for="(product, i) in products" :key="i">
-            <Card :product="product" />
+            <Card :products="product" />
         </div>
         
     </div>
