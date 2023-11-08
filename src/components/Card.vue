@@ -11,7 +11,7 @@
         data(){
             return{
                 store: store,
-                protucts: store.products
+                protucts: store.products,
             }
         }
     }
@@ -19,8 +19,8 @@
 
 <template>
         <div>
-            <img src="../../public/1.webp" alt="" class="img-top">
-            <img src="../../public/1b.webp" alt="" class="img-back">
+            <img :src="`../../public/${product.frontImage}`" alt="" class="img-top">
+            <img :src="`../../public/${product.backImage}`" alt="" class="img-back">
             <div class="discount"></div>
             <div class="free"></div>
             <div class="heart">&hearts;</div>

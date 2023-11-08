@@ -3,6 +3,7 @@
     import BooleandoMain from './components/BooleandoMain.vue';
     import BooleandoFooter from './components/BooleandoFooter.vue';
     import { store } from './store.js';
+    import axios from 'axios';
 
     export default {
         components:{
@@ -13,20 +14,22 @@
         data() {
             return{
                 store: store,
+                productsUrl:'http://localhost:3000/products'
             }
         },
-        // created(){
-        //     axios.get()
-        //     .then(res=>{
-        //         const paste = res.data
-        //         this.store.products = products
-        //     })
-        // },
+        created(){
+            axios.get(this.productsUrl)
+            .then(res=>{
+                const products = res.data
+                this.store.products = products
+            })
+        },
     } 
 </script>
 
 <template>
-    <header>
+    <body id="app">
+        <header>
         <BooleandoHeader />
 
     </header>
@@ -38,6 +41,7 @@
     <footer>
         <BooleandoFooter />
     </footer>
+    </body>
 </template>
 
 <style lang="scss">

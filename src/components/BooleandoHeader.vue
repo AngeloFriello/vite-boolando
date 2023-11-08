@@ -1,11 +1,14 @@
 <script>
-export default {
-  data() {
-    return {
-      title: 'Footer'
+    import { store } from '../store';
+
+    export default {
+      data() {
+        return {
+            store,
+          title: 'Footer'
+        }
+      }
     }
-  }
-}
 </script>
 
 <template>
@@ -18,7 +21,7 @@ export default {
                     <a href="">Bambini</a>
                 </div>
                 <div>
-                    <img src="../assets/boolean-logo.png" alt="" class="logo">
+                    <img src="../../public/boolean-logo.png" alt="" class="logo">
                 </div>
                 <div>
                     <ul class="icon">
