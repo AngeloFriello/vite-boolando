@@ -1,7 +1,8 @@
 <script>
     import BooleandoHeader from './components/BooleandoHeader.vue';
     import BooleandoMain from './components/BooleandoMain.vue';
-    import BooleandoFooter from './components/BooleandoFooter.vue'; 
+    import BooleandoFooter from './components/BooleandoFooter.vue';
+    import { store } from './store.js';
 
     export default {
         components:{
@@ -11,9 +12,16 @@
         },
         data() {
             return{
-                
+                store: store,
             }
-        }
+        },
+        // created(){
+        //     axios.get()
+        //     .then(res=>{
+        //         const paste = res.data
+        //         this.store.products = products
+        //     })
+        // },
     } 
 </script>
 
