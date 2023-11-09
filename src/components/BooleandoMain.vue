@@ -20,7 +20,7 @@ export default {
       },
       closeModal() {
         this.open = false
-        this.selectedPasta = {}
+        this.selectedProduct = {}
       },
 }
 }
@@ -34,11 +34,12 @@ export default {
         </div>
         <div v-if="open" class="modal">
             <div class="card">
-                <div class="card__header">
-                    {{ selectedProduct.name }}
+                <font-awesome-icon :icon="['fas', 'circle-xmark']" />
+                <div class="card-header">
+                    {{ selectedProduct.name}}
                 </div>
-                <div class="card__body">
-
+                <div class="card-body">
+                    {{ selectedProduct.brand }}
                 </div>
             </div>
         </div>

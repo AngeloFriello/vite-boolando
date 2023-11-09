@@ -184,7 +184,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 40;
+    z-index: 2;
     background-color: rgba(0,0,0,0.5);
   }
 
@@ -193,7 +193,7 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 50;
+    z-index: 3;
     background-color: white;
     border-radius: 20px;
     padding: 20px;

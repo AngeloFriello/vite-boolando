@@ -27,7 +27,7 @@
         </div>
         <div>
             <p class="brand">{{ product.brand }}</p>
-            <p class="outfit-name" @click="$emit('show', store)">{{ product.name }}</p>
+            <p class="outfit-name" @click="$emit('show', product)">{{ product.name }}</p>
             <p class="outfit-price">{{ product.price }}</p>
             <p class="outfit-price_discount">22</p>
         </div>
