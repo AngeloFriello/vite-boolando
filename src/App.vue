@@ -2,6 +2,7 @@
     import BooleandoHeader from './components/BooleandoHeader.vue';
     import BooleandoMain from './components/BooleandoMain.vue';
     import BooleandoFooter from './components/BooleandoFooter.vue';
+    import { faCircleXmark } from '@fortawesome/free-regular-svg-icons'
     import { store } from './store.js';
     import axios from 'axios';
 

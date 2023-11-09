@@ -31,6 +31,7 @@
             <p class="outfit-price">{{ product.price }}</p>
             <p class="outfit-price_discount">22</p>
         </div>
+
 </template>
 
 <style>

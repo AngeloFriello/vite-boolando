@@ -1,6 +1,7 @@
 <script>
     import Card from './Card.vue';  
-    import { store } from '../store'
+    import { store } from '../store';
+
 export default {
     components:{
         Card,
@@ -34,15 +35,18 @@ export default {
         </div>
         <div v-if="open" class="modal">
             <div class="card">
-                <font-awesome-icon :icon="['fas', 'circle-xmark']" />
                 <div class="card-header">
                     {{ selectedProduct.name}}
                 </div>
+                <font-awesome-icon @click="closeModal" :icon="['far', 'circle-xmark']" class="circle-xmark"/>        
                 <div class="card-body">
+                    <img :src="`../../public/${store.products[0].frontImage}`" alt="">
+                    <img :src="`../../public/${store.products[0].backImage}`" alt="">
                     {{ selectedProduct.brand }}
                 </div>
             </div>
         </div>
+        
     </div>
 </template>
 
