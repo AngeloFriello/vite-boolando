@@ -21,15 +21,15 @@
         <div>
             <img :src="`../../public/${product.frontImage}`" alt="" class="img-top">
             <img :src="`../../public/${product.backImage}`" alt="" class="img-back">
-            <div class="discount"></div>
-            <div class="free"></div>
+            <div class="discount">30%</div>
+            <div class="free">Sostenibilità</div>
             <div class="heart">&hearts;</div>
         </div>
         <div>
             <p class="brand">{{ product.brand }}</p>
-            <p class="outfit-name">{{ product.name }}</p>
+            <p class="outfit-name" @click="$emit('show', store)">{{ product.name }}</p>
             <p class="outfit-price">{{ product.price }}</p>
-            <p class="outfit-price_discount">29,99</p>
+            <p class="outfit-price_discount">22</p>
         </div>
 </template>
 
